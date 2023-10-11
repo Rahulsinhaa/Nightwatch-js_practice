@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test.amazon.test"
+    errors="0" failures="0" hostname="" id="" package="amazon.test" skipped="0"
+    tests="1" time="977.0" timestamp="">
+  
+    <testcase name="setting the value in google search" classname="test.amazon.test" time="486.9" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
