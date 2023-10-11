@@ -9,7 +9,7 @@ describe('testing amazone testing', () => {
         client
             .waitForElementPresent('#APjFqb')
             .setValue('#APjFqb', ['amazon.in', client.Keys.ENTER])
-            .pause()
+            
     });
 
 
