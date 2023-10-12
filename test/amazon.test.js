@@ -39,8 +39,7 @@ describe('testing amazone testing', () => {
         client
             .waitForElementVisible('span.a-size-medium.a-color-base.a-text-normal', 1000) // Adjust the timeout as needed
             .click('span.a-size-medium.a-color-base.a-text-normal')
-
-    });
+ });
 
     it('verifing the first product', (client) => {
         client

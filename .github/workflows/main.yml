@@ -19,4 +19,4 @@ jobs:
           node-version: '16' # Set Node.js version to 16
 
       - name: Run unit tests
-        run:  npx nightwatch -t test/amazon.test.js
+        run:   npx nightwatch -t test/myntra.test.js

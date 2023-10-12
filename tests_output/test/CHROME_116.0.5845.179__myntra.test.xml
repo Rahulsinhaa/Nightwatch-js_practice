@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="0"
+            tests="5">
+
+  <testsuite name="test.myntra.test"
+    errors="3" failures="0" hostname="" id="" package="myntra.test" skipped="0"
+    tests="5" time="115.6" timestamp="">
+  
+    <testcase name="setting the value in google search" classname="test.myntra.test" time="0.3290" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="click on first result" classname="test.myntra.test" time="5.758" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="set search box in myntra" classname="test.myntra.test" time="5.163" assertions="0">
+    </testcase>
+  
+    <testcase name="setting login infformation" classname="test.myntra.test" time="30.16" assertions="0">
+    </testcase>
+  
+    <testcase name="adding product to cart" classname="test.myntra.test" time="15.39" assertions="0">
+    <error message="Error while running &#34;window.switch&#34; command: windowHandle argument passed to .window.switchTo() must be a string; received: undefined (undefined)." type="error"><![CDATA[
+    Error
+    at NightwatchAPI.name (/home/knoldus/vs code/amazon_testing_practice/test/myntra.test.js:45:37)
+    at Object.apply (/home/knoldus/vs code/amazon_testing_practice/node_modules/nightwatch/dist/api/_loaders/_base-loader.js:323:43)
+    at NightwatchAPI.&lt;anonymous&gt; (/home/knoldus/vs code/amazon_testing_practice/node_modules/nightwatch/dist/api/client-commands/_base-command.js:32:56)
+    at Utils.makePromise (/home/knoldus/vs code/amazon_testing_practice/node_modules/nightwatch/dist/utils/index.js:155:32)
+    at /home/knoldus/vs code/amazon_testing_practice/node_modules/nightwatch/dist/core/client.js:249:59
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /home/knoldus/vs code/amazon_testing_practice/test/myntra.test.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     39 |         client
+     40 |             .pause(10000)
+     41 |             .click(&#39;.results-base li:nth-child(3)&#39;) 
+     42 |         client
+     43 |             .window.getAllHandles(function name(result) {
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ Error
+   windowHandle argument passed to .window.switchTo() must be a string; received: undefined (undefined).
+ Error
+   Error while running &#34;window.switch&#34; command: windowHandle argument passed to .window.switchTo() must be a string; received: undefined (undefined).
+
+    Error location:
+    /home/knoldus/vs code/amazon_testing_practice/test/myntra.test.js:
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     43 |             .window.getAllHandles(function name(result) {
+     44 |                 var tab = result.value[1];
+     45 |                 client.window.switch(tab); 
+     46 |             })
+     47 |             .click(By.xpath(&#39;//div[text()=&#34;ADD TO BAG&#34;]&#39;), function () {
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
