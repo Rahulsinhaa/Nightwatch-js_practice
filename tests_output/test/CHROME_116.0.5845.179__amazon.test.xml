@@ -5,9 +5,9 @@
 
   <testsuite name="test.amazon.test"
     errors="0" failures="0" hostname="" id="" package="amazon.test" skipped="0"
-    tests="1" time="977.0" timestamp="">
+    tests="1" time="6.262" timestamp="">
   
-    <testcase name="setting the value in google search" classname="test.amazon.test" time="486.9" assertions="1">
+    <testcase name="setting the value in google search" classname="test.amazon.test" time="1.187" assertions="1">
 
     
     </testcase>
