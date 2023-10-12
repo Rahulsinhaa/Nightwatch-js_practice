@@ -10,7 +10,7 @@ describe('testing amazone testing', () => {
 
     it('setting the value in google search', (client) => {
         client
-            .waitForElementVisible('APjFqb', 5000)
+            .waitForElementVisible('#APjFqb', 5000)
             .setValue('#APjFqb', ['amazon', client.Keys.ENTER])
             .waitForElementVisible(By.xpath('//h3[text()="Amazon.in"]'),5000)
             .verify.textContains(By.xpath('//h3[text()="Amazon.in"]'), 'Amazon')
