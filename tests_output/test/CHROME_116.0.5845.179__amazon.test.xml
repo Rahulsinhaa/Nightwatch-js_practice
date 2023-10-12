@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="6">
 
   <testsuite name="test.amazon.test"
     errors="0" failures="0" hostname="" id="" package="amazon.test" skipped="0"
-    tests="1" time="6.262" timestamp="">
+    tests="6" time="59.71" timestamp="">
   
-    <testcase name="setting the value in google search" classname="test.amazon.test" time="1.187" assertions="1">
+    <testcase name="setting the value in google search" classname="test.amazon.test" time="5.712" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="fill in the search box of amazone" classname="test.amazon.test" time="9.790" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="verifying the number of result in my test case" classname="test.amazon.test" time="0.2870" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="clicking on the first elemts" classname="test.amazon.test" time="0.7990" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="verifing the first product" classname="test.amazon.test" time="0.05400" assertions="0">
+    </testcase>
+  
+    <testcase name="verifing the product windo" classname="test.amazon.test" time="11.76" assertions="1">
 
     
     </testcase>
