@@ -10,16 +10,16 @@ describe('testing amazone testing', () => {
 
     it('setting the value in google search', (client) => {
         client
-            .waitForElementPresent('#APjFqb')
+            .waitForElementVisible('APjFqb', 5000)
             .setValue('#APjFqb', ['amazon', client.Keys.ENTER])
-            .waitForElementPresent(By.xpath('//h3[text()="Amazon.in"]'))
+            .waitForElementVisible(By.xpath('//h3[text()="Amazon.in"]'),5000)
             .verify.textContains(By.xpath('//h3[text()="Amazon.in"]'), 'Amazon')
             .click(By.xpath('//h3[text()="Amazon.in"]'))
 
     });
     it('fill in the search box of amazone', (client) => {
         client
-            .waitForElementPresent('#twotabsearchtextbox')
+            .waitForElementVisible('#twotabsearchtextbox',5000)
             .sendKeys('#twotabsearchtextbox', ['boat head phones', client.Keys.ENTER])
             
     });
