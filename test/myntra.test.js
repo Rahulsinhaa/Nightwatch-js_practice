@@ -20,24 +20,26 @@ describe('testing myntra ui', (client) => {
     });
     it('set search box in myntra', (client) => {
         client
-            .sendKeys('input[placeholder="Search for products, brands and more"]', ['high neck t shirt for men', client.Keys.ENTER])
-            .moveToElement('#desktop-header-cnt div.desktop-userIconsContainer > span.myntraweb-sprite.desktop-iconUser.sprites-headerUser', 10, 10, function () {
-                client.click('div [class="desktop-getUserInLinks desktop-getInLinks"]')
-
-            })
+        .waitForElementVisible('input[placeholder="Search for products, brands and more"]',3000)
+        .sendKeys('input[placeholder="Search for products, brands and more"]', ['high neck t shirt for men', client.Keys.ENTER])
+        .moveToElement('#desktop-header-cnt div.desktop-userIconsContainer > span.myntraweb-sprite.desktop-iconUser.sprites-headerUser', 10, 10, function () {
+         client.click('div [class="desktop-getUserInLinks desktop-getInLinks"]')
+          })
 
     });
     it('setting login infformation', (client) => {
         client
+        client
+           .waitForElementVisible('input[class="form-control mobileNumberInput"]',3000)
             .sendKeys('input[class="form-control mobileNumberInput"]', ['7645833848', client.Keys.ENTER])
             .pause(30000)
             .click('div[class="submitBottomOption"]')
-
     });
 
     it('adding product to cart', (client) => {
         client
             .pause(20000)
+            
             .click('.results-base li:nth-child(3)')
         client
             .window.getAllHandles(function name(result) {
