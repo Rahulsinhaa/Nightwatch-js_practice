@@ -45,7 +45,7 @@ describe('testing myntra ui', (client) => {
                 client.window.switch(tab);
             })
             .click(By.xpath('//div[text()="ADD TO BAG"]'))
-    
+
     });
 
 
