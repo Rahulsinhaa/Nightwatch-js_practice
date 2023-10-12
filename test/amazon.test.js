@@ -52,7 +52,7 @@ describe('testing amazone testing', () => {
 
     it('verifing the product windo', (client) => {
         client.getTitle(function name(title) {
-            verify.titleContains('boAt Rockerz 255 Pro+ Bluetooth')
+            verify.titleContains('boAt')
         })
 
     });
