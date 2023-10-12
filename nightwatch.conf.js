@@ -52,11 +52,11 @@ module.exports = {
 
         browserName: 'chrome',
 
-        // chromeOptions: {
+        chromeOptions: {
 
-        //   args: ['--headless', '--no-sandbox']
+          args: ['--headless', '--no-sandbox']
 
-        // }
+        }
 
       },
 
