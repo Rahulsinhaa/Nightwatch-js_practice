@@ -21,7 +21,7 @@ describe('testing amazone testing', () => {
         client
             .waitForElementPresent('#twotabsearchtextbox')
             .sendKeys('#twotabsearchtextbox', ['boat head phones', client.Keys.ENTER])
-            .pause()
+            
     });
 
 
