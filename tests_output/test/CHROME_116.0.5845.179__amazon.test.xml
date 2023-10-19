@@ -5,9 +5,9 @@
 
   <testsuite name="test.amazon.test"
     errors="0" failures="0" hostname="" id="" package="amazon.test" skipped="0"
-    tests="6" time="44.33" timestamp="">
+    tests="6" time="117.3" timestamp="">
   
-    <testcase name="setting the value in google search" classname="test.amazon.test" time="7.216" assertions="3">
+    <testcase name="setting the value in google search" classname="test.amazon.test" time="23.60" assertions="3">
 
     
 
@@ -16,25 +16,25 @@
     
     </testcase>
   
-    <testcase name="fill in the search box of amazone" classname="test.amazon.test" time="3.671" assertions="1">
+    <testcase name="fill in the search box of amazone" classname="test.amazon.test" time="14.16" assertions="1">
 
     
     </testcase>
   
-    <testcase name="verifying the number of result in my test case" classname="test.amazon.test" time="0.1970" assertions="1">
+    <testcase name="verifying the number of result in my test case" classname="test.amazon.test" time="0.3580" assertions="1">
 
     
     </testcase>
   
-    <testcase name="clicking on the first elemts" classname="test.amazon.test" time="0.4650" assertions="1">
+    <testcase name="clicking on the first elemts" classname="test.amazon.test" time="0.9920" assertions="1">
 
     
     </testcase>
   
-    <testcase name="verifing the first product" classname="test.amazon.test" time="0.4020" assertions="0">
+    <testcase name="verifing the first product" classname="test.amazon.test" time="0.05600" assertions="0">
     </testcase>
   
-    <testcase name="verifing the product windo" classname="test.amazon.test" time="7.950" assertions="1">
+    <testcase name="verifing the product windo" classname="test.amazon.test" time="11.56" assertions="1">
 
     
     </testcase>

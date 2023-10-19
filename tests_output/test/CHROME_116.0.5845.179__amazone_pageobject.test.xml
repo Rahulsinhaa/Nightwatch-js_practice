@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test.amazone_pageobject.test"
+    errors="0" failures="1" hostname="" id="" package="amazone_pageobject.test" skipped="0"
+    tests="1" time="111.0" timestamp="">
+  
+    <testcase name="setting the value in google search" classname="test.amazone_pageobject.test" time="55.50" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;//h3[text()=&#34;Amazon.in&#34;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5194ms)">    at Page.performGoogleSearch (/home/knoldus/vs code/amazon_testing_practice/nightwatch/page-objects/amazonesearch.js:16:14)
+    at setting the value in google search (/home/knoldus/vs code/amazon_testing_practice/test/amazone_pageobject.test.js:6:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
